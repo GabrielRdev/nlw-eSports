@@ -9,19 +9,11 @@ ul {
 }
 
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 25%,
-    rgba(76, 76, 76, 1) 44%,
-    rgba(105, 105, 104, 1) 60%,
-    rgba(142, 142, 141, 1) 81%,
-    rgba(254, 254, 252, 1) 100%
-  );
+  background-color: #252525;
+  background-image: url(./assets/map-bg.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-color: #121214;
 }
 
 body * {
@@ -37,16 +29,16 @@ header {
 header div {
   width: 120px;
   margin: auto;
-  background: white;
+  background: rgb(93, 87, 87);
   background: linear-gradient(
-    260deg,
-    rgba(251, 0, 0, 1) 0%,
-    rgba(134, 134, 134, 1) 28%,
-    rgba(120, 120, 120, 1) 69%,
-    rgba(255, 3, 3, 1) 83%,
-    rgba(254, 254, 252, 1) 100%
+    257deg,
+    rgba(93, 87, 87, 1) 0%,
+    rgba(247, 235, 37, 1) 26%,
+    rgba(67, 120, 29, 1) 46%,
+    rgba(228, 228, 228, 1) 69%,
+    rgba(247, 235, 37, 1) 83%,
+    rgba(38, 36, 1, 1) 100%
   );
-
   border-radius: 50%;
 
   display: flex;
@@ -74,21 +66,22 @@ main {
 }
 
 section {
-  background: rgb(251, 0, 0);
+  background: rgb(93, 87, 87);
   background: linear-gradient(
-    260deg,
-    rgba(251, 0, 0, 1) 0%,
-    rgba(134, 134, 134, 1) 28%,
-    rgba(120, 120, 120, 1) 69%,
-    rgba(255, 3, 3, 1) 83%,
-    rgba(254, 254, 252, 1) 100%
+    257deg,
+    rgba(93, 87, 87, 1) 0%,
+    rgba(247, 235, 37, 1) 26%,
+    rgba(67, 120, 29, 1) 46%,
+    rgba(228, 228, 228, 1) 69%,
+    rgba(247, 235, 37, 1) 83%,
+    rgba(38, 36, 1, 1) 100%
   );
   padding-top: 4px;
   border-radius: 10px;
 }
 
 section div {
-  background-color: #e3dfdf;
+  background-color: #e4e4e4;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
